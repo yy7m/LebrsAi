@@ -18,7 +18,7 @@ from telegram.constants import ChatAction, ParseMode
 # ===== الإعدادات =====
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-MODEL = "gemini-1.5-pro"
+MODEL = "gemini-2.0-flash"
 MAX_HISTORY = 20
 TRIGGER_WORD = "ليبر"  # الكلمة المطلوبة في القروب
 
